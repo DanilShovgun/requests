@@ -1,0 +1,4 @@
+import yadisk
+
+y = yadisk.YaDisk(token='')
+y.upload('test.txt', '/test.txt')
